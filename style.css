@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+
+.carousel {
+    max-width: 60%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/arrow-right-solid.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/arrow-left-solid.svg);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #ec1a1a;
+    width: 45px;
+    height: 15px;
+    border-radius: 15px;
+}
